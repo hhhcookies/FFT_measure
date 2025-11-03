@@ -14,13 +14,19 @@ Run FFT_measure.py in terminal to start the program
 </p>
 
 **Load image:**
-
+<p align="center">
+    <img src = "assets/figures/load_image.PNG" width="500" />
+</p>
 
 **FFT of the loaded image:**  
-
+<p align="center">
+    <img src = "assets/figures/FFT.PNG" width="500" />
+</p>
 
 **Meaure in frequency domain and calculate corresponding spatial distance:**
-
+<p align="center">
+    <img src = "assets/figures/measure_distance.PNG" width="500" />
+</p>
 
 
 More functions such as high/loss pass filter, line profile in real space image can be added later
