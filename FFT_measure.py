@@ -13,7 +13,7 @@ class App:
     # set the UI interface
     def __init__(self,root):
         self.root = root # initialize the root window
-        self.root.title("GUI test") # title of the root window
+        self.root.title("FFT measurement") # title of the root window
         self.root.geometry("1500x1000") # size of the root window
         self.root.minsize(800,600) # minimum size of the root window
 
@@ -50,7 +50,7 @@ class App:
 
         self.control_frame.pack(side='left',fill='both',expand=1,padx=10,pady=10) 
         self.image_fft_frame.pack(side='left',fill='both',expand=1,padx=10,pady=10) 
-        self.lp_frame.pack(side='left',fill='both',expand=1,padx=10,pady=10) 
+        #self.lp_frame.pack(side='left',fill='both',expand=1,padx=10,pady=10) 
 
    
 
@@ -634,8 +634,11 @@ class App:
 
 
 #%%
-root = tk.Tk()  # create a tinker root window
-app = App(root) # intialize, define GUI interface and functions
-root.mainloop() # switch to the GUI loop, user interactions from here
 
-print("Close the Window and Exit GUI")
+if __name__ == "__main__":
+    root = tk.Tk()  # create a tinker root window
+    app = App(root) # intialize, define GUI interface and functions
+    root.mainloop() # switch to the GUI loop, user interactions from here
+
+    print("Exit GUI")
+

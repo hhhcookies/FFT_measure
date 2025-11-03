@@ -1,5 +1,6 @@
 # A tinkter-based GUI to perform FFT on the EM images
-# Measure in FFT pattern and calculate corresponding spatial distance
+
+**Measure in FFT pattern and calculate corresponding spatial distance**
 
 **Environments:**
 environments.yaml
@@ -8,7 +9,9 @@ environments.yaml
 Run FFT_measure.py in terminal to start the program  
 
 **Start program:**  
-
+<p align="center">
+    <img src = "assets/figures/GUI_open.PNG" width="500" />
+</p>
 
 **Load image:**
 
